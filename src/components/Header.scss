@@ -1,0 +1,29 @@
+header {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.136);
+    background-color: #FE7BE5;
+    background-color: #FBD85D;
+    background-color: #C8FFE0;
+    background-color: #FF9B9B;
+    background-color: #FF6666;
+    background-color: #FF8989;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+
+    .left {
+        display: flex;
+        align-items: center;
+
+        img {
+            width: 8%;
+            margin-right: .5rem;
+        }
+
+        h3 {
+            font-size: 1.3rem;
+            font-weight: 500;
+        }
+    }
+}
